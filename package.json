@@ -1,0 +1,21 @@
+{
+  "name": "qa-playwright-framework",
+  "version": "1.0.0",
+  "description": "Playwright + TypeScript test automation framework — UI (Page Object Model) and API tests, fixtures, and CI.",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --project=ui",
+    "test:api": "playwright test --project=api",
+    "report": "playwright show-report"
+  },
+  "keywords": ["playwright", "typescript", "test-automation", "qa", "page-object-model"],
+  "author": "Artur Romashchuk",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^20.14.0",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.5.0"
+  }
+}
